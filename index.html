@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>muzyka</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <label for="Dodaj">POdaj dzialanie ktora chcesz zrobic:</label>
+    <input type="text" id="Dodaj">
+    <button type="button" id="pokaz" onclick="wyswietl()">Pokaż muzyke </button>
+    <button type="button" onclick="dodaj()">Dodaj muzyke</button>
+    <button type="button" onclick="usun()">Usun dodaną</button>
+    <button type="button" onclick="dodajnap()">dodaj na poczatek</button>
+    <button type="button" onclick="usunpier()">Usun pierwsze</button>
+    <button type="button" onclick="sprawdz()">Sprawdż czy jest ambient</button>
+    <button type="button" onclick="sortt()">Sortuj</button>
+    <button type="button" onclick="wyswietlPierwszy()">Piewszy element</button>
+    <button type="button" onclick="wyswietlLiczbe()">Liczba elementow</button>
+    <button type="button" onclick="wyswietlDwa()">dwa elementy</button>
+    <button type="button" onclick="wyswietlWszystkie()">wszystkie elementy</button>
+    <div id="muzyka"></div>
+    <div id="tn"></div>
+    <div id="wynik1"></div>
+<div id="wynik2"></div>
+<div id="wynik3"></div>
+<div id="wynik4"></div>
+    <script src="main.js"></script>
+</body>
